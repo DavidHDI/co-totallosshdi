@@ -28,7 +28,7 @@ Este modelo utiliza como insumo principal:
 
 - **Joblib** – Contiene los resultados del entrenamiento del modelo XGBoost seleccionado para realizar las predicciones sobre los nuevos sets de datos 
 
-  - co_totalloss_5.joblib
+  - co_totallosshdi.joblib
 
     - s3://hdi-sagemaker-project-co/data-science/co-total-loss/hdi/Joblib_TL_HDI/
 
@@ -46,9 +46,9 @@ El resultado del modelo consiste en obtener una marca en los registros seleccion
 
 -	**totallosshdi_training.ipynb** & perdidas_daños_HDI.xlsx <- Cuadernillo para consulta del proceso de entrenamiento del modelo y base insumo.
 
--	**Co_totalloss.db** <- Base de datos que contiene los hiperparámetros del modelo
+-	**co_totallosshdi.db** <- Base de datos que contiene los hiperparámetros del modelo
   
--	**co_totalloss_5.joblib** <-  Archivo donde se almacena el entrenamiento del modelo
+-	**co_totallosshdi.joblib** <-  Archivo donde se almacena el entrenamiento del modelo
   
 -	**Total_loss_HDI_final.ipynb** <- archive que toma el insumo y genera las predicciones para la fecha correspondiente.
 
